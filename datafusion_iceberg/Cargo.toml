@@ -14,7 +14,7 @@ futures = { workspace = true }
 url = { workspace = true }
 serde_json = { workspace = true }
 async-trait = { workspace = true }
-datafusion = { workspace = true }
+datafusion = { git = "https://github.com/Embucket/datafusion.git" }
 datafusion-expr = { workspace = true }
 chrono = { workspace = true }
 object_store = { workspace = true }
