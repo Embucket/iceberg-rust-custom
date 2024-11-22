@@ -23,5 +23,5 @@ uuid = { version = "1.7.0", features = ["v4"] }
 
 [dev-dependencies]
 tokio = "1"
-testcontainers-modules = { version = "0.8.0", features = ["localstack"] }
+testcontainers-modules = { version = "0.11.4", features = ["localstack"] }
 testcontainers = "0.23.1"
