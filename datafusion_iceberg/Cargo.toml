@@ -15,7 +15,6 @@ url = { workspace = true }
 serde_json = { workspace = true }
 async-trait = { workspace = true }
 datafusion = { git = "https://github.com/Embucket/datafusion.git" }
-datafusion-expr = { workspace = true }
 chrono = { workspace = true }
 object_store = { workspace = true }
 iceberg-rust = { path = "../iceberg-rust", version = "0.5.8" }
@@ -30,9 +29,9 @@ regex = "1.11.0"
 tokio = "1"
 iceberg-sql-catalog = { path = "../iceberg-sql-catalog" }
 iceberg-rest-catalog = { path = "../iceberg-rest-catalog" }
-testcontainers-modules = { version = "0.8.0", features = ["localstack", "postgres"] }
-testcontainers = "0.20.0"
+testcontainers-modules = { version = "0.11.4", features = ["localstack", "postgres"] }
+testcontainers = "0.23.1"
 tokio-stream = { version = "0.1.15", features = ["io-util"] }
 tempfile = "3.10.1"
-reqwest = "0.11"
+reqwest = "0.12.9"
 sqlx = { version = "0.8", features = ["runtime-tokio", "tls-rustls", "any", "sqlite", "postgres", "mysql"], default-features = false }
